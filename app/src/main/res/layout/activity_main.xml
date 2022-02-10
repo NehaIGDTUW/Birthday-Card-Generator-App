@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday Card Generator"
+        android:textSize="40sp"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Enter the name: "
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:hint="Name"/>
+
+    <Button
+        android:id="@+id/button_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Create Birthday Card"/>
+
+</LinearLayout>
